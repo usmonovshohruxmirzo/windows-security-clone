@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gM71qKEiHGA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone (Package)\\Windows-Security-Clone (Package).wapproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
+    "D:\\Programms\\VS BASIC\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.26100.1742\\microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250310001\\microsoft.windowsappsdk.1.7.250310001.nupkg.sha512"
+  ],
+  "logs": []
+}

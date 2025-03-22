@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Wmo9C5EVho=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
+    "D:\\Programms\\VS BASIC\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.26100.1742\\microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250310001\\microsoft.windowsappsdk.1.7.250310001.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\8.0.13\\microsoft.netcore.app.runtime.win-x86.8.0.13.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.13\\microsoft.aspnetcore.app.runtime.win-x86.8.0.13.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\8.0.13\\microsoft.netcore.app.runtime.win-arm64.8.0.13.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.13\\microsoft.aspnetcore.app.runtime.win-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\8.0.13\\microsoft.windowsdesktop.app.runtime.win-arm64.8.0.13.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\8.0.13\\microsoft.aspnetcore.app.runtime.win-arm64.8.0.13.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.13\\microsoft.netcore.app.runtime.win-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\ACER_NITRO\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.13\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

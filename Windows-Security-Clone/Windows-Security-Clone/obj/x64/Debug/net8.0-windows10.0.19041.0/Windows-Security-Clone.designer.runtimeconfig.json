@@ -1,0 +1,19 @@
+{
+  "runtimeOptions": {
+    "tfm": "net8.0",
+    "framework": {
+      "name": "Microsoft.NETCore.App",
+      "version": "8.0.0"
+    },
+    "additionalProbingPaths": [
+      "C:\\Users\\ACER_NITRO\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ACER_NITRO\\.nuget\\packages",
+      "D:\\Programms\\VS BASIC\\Shared\\NuGetPackages"
+    ],
+    "configProperties": {
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,
+      "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
+      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
+    }
+  }
+}
