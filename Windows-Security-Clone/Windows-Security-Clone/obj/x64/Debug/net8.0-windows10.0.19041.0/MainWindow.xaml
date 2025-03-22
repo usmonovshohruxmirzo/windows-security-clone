@@ -14,14 +14,17 @@
                             PaneDisplayMode="Left"
                             IsSettingsVisible="False">
         <NavigationView.MenuItems>
-            <NavigationViewItem Content="Browse" Tag="SamplePage1" Icon="Library" />
-            <NavigationViewItem Content="Track an Order" Tag="SamplePage2" Icon="Map" />
-            <NavigationViewItem Content="Order History" Tag="SamplePage3" Icon="Tag" />
+            <NavigationViewItem Content="Home" Tag="HomePage" Icon="Home" />
+            <NavigationViewItem Content="Virus threat protection" Tag="VirusThreatProtection" Icon="Globe" />
+            <NavigationViewItem Content="Account protection" Tag="AccountProtection" Icon="Contact" />
+            <NavigationViewItem Content="Firewall network protection" Tag="FirewallNetwork" Icon="Globe" />
+            <NavigationViewItem Content="App browser control" Tag="AppBrowserControl" Icon="Globe" />
+            <NavigationViewItem Content="Device security" Tag="DeviceSecurity" Icon="Globe" />
+            <NavigationViewItem Content="Device performance health" Tag="DevicePerformanceHealth" Icon="Globe" />
+            <NavigationViewItem Content="Family options" Tag="FamilyOptions" Icon="People" />
         </NavigationView.MenuItems>
         <NavigationView.FooterMenuItems>
-            <NavigationViewItem Content="Account" Tag="SamplePage4" Icon="Contact" />
-            <NavigationViewItem Content="Your Cart" Tag="SamplePage5" Icon="Shop" />
-            <NavigationViewItem Content="Help" Tag="SamplePage5" Icon="Help" />
+            <NavigationViewItem Content="Settings" Tag="SamplePage4" Icon="Setting" />
         </NavigationView.FooterMenuItems>
         <Frame x:ConnectionId='3' x:Name="contentFrame" />
     </NavigationView>

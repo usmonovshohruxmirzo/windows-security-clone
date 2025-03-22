@@ -10,18 +10,69 @@
     Title="Windows-Security-Clone">
 
     <NavigationView x:Name="nvSample9"
-                            Header="This is Header Text"
+                            Header="Windows Security"
                             PaneDisplayMode="Left"
                             IsSettingsVisible="False">
         <NavigationView.MenuItems>
-            <NavigationViewItem Content="Browse" Tag="SamplePage1" Icon="Library" />
-            <NavigationViewItem Content="Track an Order" Tag="SamplePage2" Icon="Map" />
-            <NavigationViewItem Content="Order History" Tag="SamplePage3" Icon="Tag" />
+            <NavigationViewItem Content="Home" Tag="HomePage">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE80F;" />
+                    <!-- Home icon -->
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Virus threat protection" Tag="VirusThreatProtection">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xEA18;" />
+                    <!-- Shield icon -->
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Account protection" Tag="AccountProtection">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE77B;" />
+                    <!-- User icon -->
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Firewall network protection" Tag="FirewallNetwork">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE704;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="App browser control" Tag="AppBrowserControl">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE737;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Device security" Tag="DeviceSecurity">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE7F8;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Device performance health" Tag="DevicePerformanceHealth">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE95E;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Family options" Tag="FamilyOptions">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE716;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+            
+            <NavigationViewItem Content="Protection history" Tag="FamilyOptions">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE81C;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
         </NavigationView.MenuItems>
         <NavigationView.FooterMenuItems>
-            <NavigationViewItem Content="Account" Tag="SamplePage4" Icon="Contact" />
-            <NavigationViewItem Content="Your Cart" Tag="SamplePage5" Icon="Shop" />
-            <NavigationViewItem Content="Help" Tag="SamplePage5" Icon="Help" />
+            <NavigationViewItem Content="Settings" Tag="SamplePage4" Icon="Setting" />
         </NavigationView.FooterMenuItems>
         <Frame x:Name="contentFrame" />
     </NavigationView>
