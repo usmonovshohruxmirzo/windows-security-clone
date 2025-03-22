@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Window
     x:Class="Windows_Security_Clone.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -17,7 +17,7 @@
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="Virus &amp; threat protection" Tag="VirusThreatProtection">
+            <NavigationViewItem Content="Virus threat protection" Tag="VirusThreatProtection">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xEA18;" />
                 </NavigationViewItem.Icon>
@@ -29,13 +29,13 @@
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="Firewall &amp; network protection" Tag="FirewallNetwork">
+            <NavigationViewItem Content="Firewall network protection" Tag="FirewallNetwork">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE704;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="App &amp; browser control" Tag="AppBrowserControl">
+            <NavigationViewItem Content="App browser control" Tag="AppBrowserControl">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE737;" />
                 </NavigationViewItem.Icon>
@@ -47,7 +47,7 @@
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="Device performance &amp; health" Tag="DevicePerformanceHealth">
+            <NavigationViewItem Content="Device performance health" Tag="DevicePerformanceHealth">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE95E;" />
                 </NavigationViewItem.Icon>
@@ -68,6 +68,7 @@
         <NavigationView.FooterMenuItems>
             <NavigationViewItem Content="Settings" Tag="SamplePage4" Icon="Setting" />
         </NavigationView.FooterMenuItems>
-        <Frame x:Name="contentFrame" />
+        <Frame x:ConnectionId='2' x:Name="contentFrame" />
     </NavigationView>
 </Window>
+
