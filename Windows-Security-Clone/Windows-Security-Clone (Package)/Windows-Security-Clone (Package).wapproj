@@ -41,7 +41,7 @@
     <AssetTargetFallback>net8.0-windows$(TargetPlatformVersion);$(AssetTargetFallback)</AssetTargetFallback>
     <DefaultLanguage>en-US</DefaultLanguage>
     <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
-    <EntryPointProjectUniqueName>..\Windows-Security-Clone\Windows-Security-Clone.csproj</EntryPointProjectUniqueName>
+    <EntryPointProjectUniqueName>..\Windows-Security-Clone\WindowsSecurityClone.csproj</EntryPointProjectUniqueName>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -58,7 +58,7 @@
     <Content Include="Images\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Windows-Security-Clone\Windows-Security-Clone.csproj">
+    <ProjectReference Include="..\Windows-Security-Clone\WindowsSecurityClone.csproj">
       <SkipGetTargetFrameworkProperties>True</SkipGetTargetFrameworkProperties>
       <PublishProfile>Properties\PublishProfiles\win-$(Platform).pubxml</PublishProfile>
     </ProjectReference>

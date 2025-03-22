@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\HomePage.xbf">
+      <PackagePath>Views\HomePage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.26100.0\Redist\Debug\x64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
     </AppxPackagedFile>
@@ -74,127 +77,130 @@
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Web.WebView2.Core.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Web.WebView2.Core.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Security.Authentication.OAuth.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Security.Authentication.OAuth.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Security.Authentication.OAuth.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.WinUI.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.WinUI.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Background.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.ApplicationModel.Background.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.ApplicationModel.Background.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.BadgeNotifications.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.BadgeNotifications.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.BadgeNotifications.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Management.Deployment.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.Management.Deployment.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.Management.Deployment.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Media.Capture.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.Media.Capture.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.Media.Capture.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Storage.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.Storage.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.Storage.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.System.Power.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.System.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.System.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.Widgets.Projection.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-arm64\native\WebView2Loader.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-arm64\native\WebView2Loader.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-arm64\native\WebView2Loader.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-x64\native\WebView2Loader.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-x64\native\WebView2Loader.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-x64\native\WebView2Loader.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-x86\native\WebView2Loader.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-x86\native\WebView2Loader.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-x86\native\WebView2Loader.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\runtimes\win-arm64\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-arm64\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-arm64\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\runtimes\win-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\runtimes\win-arm64ec\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-arm64ec\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-arm64ec\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\runtimes\win-arm64ec\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-arm64ec\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-arm64ec\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\runtimes\win-x64\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-x64\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-x64\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\runtimes\win-x86\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-x86\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-x86\native\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windowsappsdk\1.7.250310001\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
-      <PackagePath>Windows-Security-Clone\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\WinRT.Runtime.dll">
-      <PackagePath>Windows-Security-Clone\WinRT.Runtime.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.web.webview2\1.0.2903.40\lib_manual\net8.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
-      <PackagePath>Windows-Security-Clone\Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
+      <PackagePath>WindowsSecurityClone\Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Windows-Security-Clone.deps.json">
-      <PackagePath>Windows-Security-Clone\Windows-Security-Clone.deps.json</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\WindowsSecurityClone.deps.json">
+      <PackagePath>WindowsSecurityClone\WindowsSecurityClone.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\App.xbf">
-      <PackagePath>Windows-Security-Clone\App.xbf</PackagePath>
+      <PackagePath>WindowsSecurityClone\App.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf">
-      <PackagePath>Windows-Security-Clone\MainWindow.xbf</PackagePath>
+      <PackagePath>WindowsSecurityClone\MainWindow.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\HomePage.xbf">
+      <PackagePath>WindowsSecurityClone\Views\HomePage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe">
-      <PackagePath>Windows-Security-Clone\Windows-Security-Clone.exe</PackagePath>
+      <PackagePath>WindowsSecurityClone\WindowsSecurityClone.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Windows-Security-Clone.runtimeconfig.json">
-      <PackagePath>Windows-Security-Clone\Windows-Security-Clone.runtimeconfig.json</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\WindowsSecurityClone.runtimeconfig.json">
+      <PackagePath>WindowsSecurityClone\WindowsSecurityClone.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Windows-Security-Clone.dll">
-      <PackagePath>Windows-Security-Clone\Windows-Security-Clone.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\WindowsSecurityClone.dll">
+      <PackagePath>WindowsSecurityClone\WindowsSecurityClone.dll</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

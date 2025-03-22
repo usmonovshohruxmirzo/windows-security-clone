@@ -9,29 +9,23 @@
     mc:Ignorable="d"
     Title="Windows-Security-Clone">
 
-    <NavigationView x:Name="nvSample9"
-                            Header="Windows Security"
-                            PaneDisplayMode="Left"
-                            IsSettingsVisible="False">
+    <NavigationView PaneDisplayMode="Left" IsSettingsVisible="False">
         <NavigationView.MenuItems>
             <NavigationViewItem Content="Home" Tag="HomePage">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE80F;" />
-                    <!-- Home icon -->
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
             <NavigationViewItem Content="Virus threat protection" Tag="VirusThreatProtection">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xEA18;" />
-                    <!-- Shield icon -->
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
             <NavigationViewItem Content="Account protection" Tag="AccountProtection">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE77B;" />
-                    <!-- User icon -->
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 

@@ -92,7 +92,7 @@
           }
         }
       },
-      "Windows-Security-Clone/1.0.0": {
+      "WindowsSecurityClone/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -100,10 +100,10 @@
           "Microsoft.WindowsAppSDK": "1.7.250310001"
         },
         "compile": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         }
       }
     },
@@ -150,7 +150,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Windows-Security-Clone/1.0.0": {
+      "WindowsSecurityClone/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -158,10 +158,10 @@
           "Microsoft.WindowsAppSDK": "1.7.250310001"
         },
         "compile": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         }
       }
     },
@@ -208,7 +208,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Windows-Security-Clone/1.0.0": {
+      "WindowsSecurityClone/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -216,10 +216,10 @@
           "Microsoft.WindowsAppSDK": "1.7.250310001"
         },
         "compile": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         }
       }
     },
@@ -266,7 +266,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Windows-Security-Clone/1.0.0": {
+      "WindowsSecurityClone/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -274,10 +274,10 @@
           "Microsoft.WindowsAppSDK": "1.7.250310001"
         },
         "compile": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         }
       }
     },
@@ -324,7 +324,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Windows-Security-Clone/1.0.0": {
+      "WindowsSecurityClone/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -332,10 +332,10 @@
           "Microsoft.WindowsAppSDK": "1.7.250310001"
         },
         "compile": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         }
       }
     },
@@ -382,7 +382,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Windows-Security-Clone/1.0.0": {
+      "WindowsSecurityClone/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -390,10 +390,10 @@
           "Microsoft.WindowsAppSDK": "1.7.250310001"
         },
         "compile": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         }
       }
     },
@@ -440,7 +440,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Windows-Security-Clone/1.0.0": {
+      "WindowsSecurityClone/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -448,10 +448,10 @@
           "Microsoft.WindowsAppSDK": "1.7.250310001"
         },
         "compile": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         }
       }
     },
@@ -498,7 +498,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Windows-Security-Clone/1.0.0": {
+      "WindowsSecurityClone/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -506,10 +506,10 @@
           "Microsoft.WindowsAppSDK": "1.7.250310001"
         },
         "compile": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Windows-Security-Clone.dll": {}
+          "bin/placeholder/WindowsSecurityClone.dll": {}
         }
       }
     }
@@ -1357,17 +1357,17 @@
         "tools/x86/GenXbf.dll"
       ]
     },
-    "Windows-Security-Clone/1.0.0": {
+    "WindowsSecurityClone/1.0.0": {
       "type": "project",
-      "path": "../Windows-Security-Clone/Windows-Security-Clone.csproj",
-      "msbuildProject": "../Windows-Security-Clone/Windows-Security-Clone.csproj"
+      "path": "../Windows-Security-Clone/WindowsSecurityClone.csproj",
+      "msbuildProject": "../Windows-Security-Clone/WindowsSecurityClone.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
       "Microsoft.Windows.SDK.BuildTools >= 10.0.26100.1742",
       "Microsoft.WindowsAppSDK >= 1.7.250310001",
-      "Windows-Security-Clone >= 1.0.0"
+      "WindowsSecurityClone >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1403,8 +1403,8 @@
         "uap10.0.17763": {
           "targetAlias": "net451",
           "projectReferences": {
-            "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone.csproj": {
-              "projectPath": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone.csproj"
+            "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\WindowsSecurityClone.csproj": {
+              "projectPath": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\WindowsSecurityClone.csproj"
             }
           }
         }

@@ -15,17 +15,17 @@ namespace Windows_Security_Clone
     public partial class App : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
-        private global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -63,7 +63,7 @@ namespace Windows_Security_Clone
     }
 }
 
-namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
+namespace Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -72,15 +72,15 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed partial class XamlMetaDataProvider : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }
@@ -130,7 +130,7 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Microsoft.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForType(type);
@@ -169,7 +169,7 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Microsoft.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForName(typeName);
@@ -226,7 +226,7 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[35];
+            _typeNameTable = new string[38];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -259,11 +259,14 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
             _typeNameTable[29] = "Microsoft.UI.Xaml.Controls.Control";
             _typeNameTable[30] = "Windows_Security_Clone.MainWindow";
             _typeNameTable[31] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[33] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[34] = "Int32";
+            _typeNameTable[32] = "WindowsSecurityClone.HomePage";
+            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[36] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[37] = "Int32";
 
-            _typeTable = new global::System.Type[35];
+            _typeTable = new global::System.Type[38];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -296,9 +299,12 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
             _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
             _typeTable[30] = typeof(global::Windows_Security_Clone.MainWindow);
             _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[33] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[34] = typeof(global::System.Int32);
+            _typeTable[32] = typeof(global::WindowsSecurityClone.HomePage);
+            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[36] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[37] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -339,7 +345,8 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
         private object Activate_25_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
         private object Activate_28_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
         private object Activate_30_MainWindow() { return new global::Windows_Security_Clone.MainWindow(); }
-        private object Activate_32_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_32_HomePage() { return new global::WindowsSecurityClone.HomePage(); }
+        private object Activate_35_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
         private void StaticInitializer_6_NavigationViewPaneDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode).TypeHandle);
@@ -356,8 +363,9 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
         private void StaticInitializer_26_NavigationViewItemBase() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase).TypeHandle);
         private void StaticInitializer_28_InfoBadge() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge).TypeHandle);
         private void StaticInitializer_30_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows_Security_Clone.MainWindow).TypeHandle);
-        private void StaticInitializer_32_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_33_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_32_HomePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.HomePage).TypeHandle);
+        private void StaticInitializer_35_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_36_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -371,7 +379,7 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_33_IList(object instance, object item)
+        private void VectorAdd_36_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -380,8 +388,8 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
 
         private global::Microsoft.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType userType;
+            global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -389,7 +397,7 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
             {
 
             case 0:   //  Microsoft.UI.Xaml.Controls.XamlControlsResources
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
                 userType.Activator = Activate_0_XamlControlsResources;
                 userType.StaticInitializer = StaticInitializer_0_XamlControlsResources;
                 userType.DictionaryAdd = MapAdd_0_XamlControlsResources;
@@ -398,22 +406,21 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 1:   //  Microsoft.UI.Xaml.ResourceDictionary
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Object
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  Boolean
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 4:   //  Microsoft.UI.Xaml.Controls.NavigationView
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
                 userType.Activator = Activate_4_NavigationView;
                 userType.StaticInitializer = StaticInitializer_4_NavigationView;
-                userType.AddMemberName("Header");
                 userType.AddMemberName("PaneDisplayMode");
                 userType.AddMemberName("IsSettingsVisible");
                 userType.AddMemberName("MenuItems");
@@ -426,6 +433,7 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 userType.AddMemberName("DisplayMode");
                 userType.AddMemberName("ExpandedModeThresholdWidth");
                 userType.AddMemberName("FooterMenuItemsSource");
+                userType.AddMemberName("Header");
                 userType.AddMemberName("HeaderTemplate");
                 userType.AddMemberName("IsBackButtonVisible");
                 userType.AddMemberName("IsBackEnabled");
@@ -454,11 +462,11 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 5:   //  Microsoft.UI.Xaml.Controls.ContentControl
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 6:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.StaticInitializer = StaticInitializer_6_NavigationViewPaneDisplayMode;
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
@@ -469,19 +477,19 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 7:   //  System.Enum
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.StaticInitializer = StaticInitializer_7_Enum;
                 xamlType = userType;
                 break;
 
             case 8:   //  System.ValueType
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.StaticInitializer = StaticInitializer_8_ValueType;
                 xamlType = userType;
                 break;
 
             case 9:   //  System.Collections.Generic.IList`1<Object>
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.StaticInitializer = StaticInitializer_9_IList;
                 userType.CollectionAdd = VectorAdd_9_IList;
                 userType.SetIsReturnTypeStub();
@@ -489,19 +497,19 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 10:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 11:   //  Double
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 12:   //  Microsoft.UI.Xaml.UIElement
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 13:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.StaticInitializer = StaticInitializer_13_NavigationViewDisplayMode;
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
@@ -510,11 +518,11 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 14:   //  Microsoft.UI.Xaml.DataTemplate
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 15:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.StaticInitializer = StaticInitializer_15_NavigationViewBackButtonVisible;
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
@@ -523,19 +531,19 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 16:   //  Microsoft.UI.Xaml.Style
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 17:   //  Microsoft.UI.Xaml.Controls.StyleSelector
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 18:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 19:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.StaticInitializer = StaticInitializer_19_NavigationViewOverflowLabelMode;
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
@@ -543,11 +551,11 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 20:   //  String
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 21:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.StaticInitializer = StaticInitializer_21_NavigationViewSelectionFollowsFocus;
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
@@ -555,7 +563,7 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 22:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.StaticInitializer = StaticInitializer_22_NavigationViewShoulderNavigationEnabled;
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
@@ -564,18 +572,18 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 23:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.StaticInitializer = StaticInitializer_23_NavigationViewTemplateSettings;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 24:   //  Microsoft.UI.Xaml.DependencyObject
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 25:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
                 userType.Activator = Activate_25_NavigationViewItem;
                 userType.StaticInitializer = StaticInitializer_25_NavigationViewItem;
                 userType.AddMemberName("Icon");
@@ -591,29 +599,29 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 26:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
                 userType.StaticInitializer = StaticInitializer_26_NavigationViewItemBase;
                 userType.AddMemberName("IsSelected");
                 xamlType = userType;
                 break;
 
             case 27:   //  Microsoft.UI.Xaml.Controls.IconElement
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 28:   //  Microsoft.UI.Xaml.Controls.InfoBadge
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
                 userType.StaticInitializer = StaticInitializer_28_InfoBadge;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 29:   //  Microsoft.UI.Xaml.Controls.Control
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 30:   //  Windows_Security_Clone.MainWindow
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
                 userType.Activator = Activate_30_MainWindow;
                 userType.StaticInitializer = StaticInitializer_30_MainWindow;
                 userType.SetIsLocalType();
@@ -621,13 +629,29 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 break;
 
             case 31:   //  Microsoft.UI.Xaml.Window
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 32:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_32_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_32_TreeViewNode;
+            case 32:   //  WindowsSecurityClone.HomePage
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_32_HomePage;
+                userType.StaticInitializer = StaticInitializer_32_HomePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 33:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 34:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 35:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_35_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_35_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -639,16 +663,16 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 33:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
-                userType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_33_IList;
-                userType.CollectionAdd = VectorAdd_33_IList;
+            case 36:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_36_IList;
+                userType.CollectionAdd = VectorAdd_36_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 34:   //  Int32
-                xamlType = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 37:   //  Int32
+                xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -719,120 +743,120 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.XamlControlsResources)instance;
             that.UseCompactResources = (global::System.Boolean)Value;
         }
-        private object get_1_NavigationView_Header(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.Header;
-        }
-        private void set_1_NavigationView_Header(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.Header = (global::System.Object)Value;
-        }
-        private object get_2_NavigationView_PaneDisplayMode(object instance)
+        private object get_1_NavigationView_PaneDisplayMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.PaneDisplayMode;
         }
-        private void set_2_NavigationView_PaneDisplayMode(object instance, object Value)
+        private void set_1_NavigationView_PaneDisplayMode(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.PaneDisplayMode = (global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode)Value;
         }
-        private object get_3_NavigationView_IsSettingsVisible(object instance)
+        private object get_2_NavigationView_IsSettingsVisible(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.IsSettingsVisible;
         }
-        private void set_3_NavigationView_IsSettingsVisible(object instance, object Value)
+        private void set_2_NavigationView_IsSettingsVisible(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.IsSettingsVisible = (global::System.Boolean)Value;
         }
-        private object get_4_NavigationView_MenuItems(object instance)
+        private object get_3_NavigationView_MenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItems;
         }
-        private object get_5_NavigationView_FooterMenuItems(object instance)
+        private object get_4_NavigationView_FooterMenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.FooterMenuItems;
         }
-        private object get_6_NavigationView_AlwaysShowHeader(object instance)
+        private object get_5_NavigationView_AlwaysShowHeader(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.AlwaysShowHeader;
         }
-        private void set_6_NavigationView_AlwaysShowHeader(object instance, object Value)
+        private void set_5_NavigationView_AlwaysShowHeader(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.AlwaysShowHeader = (global::System.Boolean)Value;
         }
-        private object get_7_NavigationView_AutoSuggestBox(object instance)
+        private object get_6_NavigationView_AutoSuggestBox(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.AutoSuggestBox;
         }
-        private void set_7_NavigationView_AutoSuggestBox(object instance, object Value)
+        private void set_6_NavigationView_AutoSuggestBox(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.AutoSuggestBox = (global::Microsoft.UI.Xaml.Controls.AutoSuggestBox)Value;
         }
-        private object get_8_NavigationView_CompactModeThresholdWidth(object instance)
+        private object get_7_NavigationView_CompactModeThresholdWidth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.CompactModeThresholdWidth;
         }
-        private void set_8_NavigationView_CompactModeThresholdWidth(object instance, object Value)
+        private void set_7_NavigationView_CompactModeThresholdWidth(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.CompactModeThresholdWidth = (global::System.Double)Value;
         }
-        private object get_9_NavigationView_CompactPaneLength(object instance)
+        private object get_8_NavigationView_CompactPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.CompactPaneLength;
         }
-        private void set_9_NavigationView_CompactPaneLength(object instance, object Value)
+        private void set_8_NavigationView_CompactPaneLength(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.CompactPaneLength = (global::System.Double)Value;
         }
-        private object get_10_NavigationView_ContentOverlay(object instance)
+        private object get_9_NavigationView_ContentOverlay(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ContentOverlay;
         }
-        private void set_10_NavigationView_ContentOverlay(object instance, object Value)
+        private void set_9_NavigationView_ContentOverlay(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ContentOverlay = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_11_NavigationView_DisplayMode(object instance)
+        private object get_10_NavigationView_DisplayMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.DisplayMode;
         }
-        private object get_12_NavigationView_ExpandedModeThresholdWidth(object instance)
+        private object get_11_NavigationView_ExpandedModeThresholdWidth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ExpandedModeThresholdWidth;
         }
-        private void set_12_NavigationView_ExpandedModeThresholdWidth(object instance, object Value)
+        private void set_11_NavigationView_ExpandedModeThresholdWidth(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ExpandedModeThresholdWidth = (global::System.Double)Value;
         }
-        private object get_13_NavigationView_FooterMenuItemsSource(object instance)
+        private object get_12_NavigationView_FooterMenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.FooterMenuItemsSource;
         }
-        private void set_13_NavigationView_FooterMenuItemsSource(object instance, object Value)
+        private void set_12_NavigationView_FooterMenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.FooterMenuItemsSource = (global::System.Object)Value;
+        }
+        private object get_13_NavigationView_Header(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
+            return that.Header;
+        }
+        private void set_13_NavigationView_Header(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
+            that.Header = (global::System.Object)Value;
         }
         private object get_14_NavigationView_HeaderTemplate(object instance)
         {
@@ -1207,390 +1231,390 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember xamlMember = null;
-            global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType userType;
+            global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember xamlMember = null;
+            global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "Microsoft.UI.Xaml.Controls.XamlControlsResources.UseCompactResources":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
                 break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.Header":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "Header", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_1_NavigationView_Header;
-                xamlMember.Setter = set_1_NavigationView_Header;
-                break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneDisplayMode":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "PaneDisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "PaneDisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_2_NavigationView_PaneDisplayMode;
-                xamlMember.Setter = set_2_NavigationView_PaneDisplayMode;
+                xamlMember.Getter = get_1_NavigationView_PaneDisplayMode;
+                xamlMember.Setter = set_1_NavigationView_PaneDisplayMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsSettingsVisible":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsSettingsVisible", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsSettingsVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_3_NavigationView_IsSettingsVisible;
-                xamlMember.Setter = set_3_NavigationView_IsSettingsVisible;
+                xamlMember.Getter = get_2_NavigationView_IsSettingsVisible;
+                xamlMember.Setter = set_2_NavigationView_IsSettingsVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItems":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_NavigationView_MenuItems;
+                xamlMember.Getter = get_3_NavigationView_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItems":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "FooterMenuItems", "System.Collections.Generic.IList`1<Object>");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "FooterMenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_5_NavigationView_FooterMenuItems;
+                xamlMember.Getter = get_4_NavigationView_FooterMenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AlwaysShowHeader":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_NavigationView_AlwaysShowHeader;
-                xamlMember.Setter = set_6_NavigationView_AlwaysShowHeader;
+                xamlMember.Getter = get_5_NavigationView_AlwaysShowHeader;
+                xamlMember.Setter = set_5_NavigationView_AlwaysShowHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AutoSuggestBox":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Microsoft.UI.Xaml.Controls.AutoSuggestBox");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Microsoft.UI.Xaml.Controls.AutoSuggestBox");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_7_NavigationView_AutoSuggestBox;
-                xamlMember.Setter = set_7_NavigationView_AutoSuggestBox;
+                xamlMember.Getter = get_6_NavigationView_AutoSuggestBox;
+                xamlMember.Setter = set_6_NavigationView_AutoSuggestBox;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactModeThresholdWidth":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "CompactModeThresholdWidth", "Double");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "CompactModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_NavigationView_CompactModeThresholdWidth;
-                xamlMember.Setter = set_8_NavigationView_CompactModeThresholdWidth;
+                xamlMember.Getter = get_7_NavigationView_CompactModeThresholdWidth;
+                xamlMember.Setter = set_7_NavigationView_CompactModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactPaneLength":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_NavigationView_CompactPaneLength;
-                xamlMember.Setter = set_9_NavigationView_CompactPaneLength;
+                xamlMember.Getter = get_8_NavigationView_CompactPaneLength;
+                xamlMember.Setter = set_8_NavigationView_CompactPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ContentOverlay":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Microsoft.UI.Xaml.UIElement");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_NavigationView_ContentOverlay;
-                xamlMember.Setter = set_10_NavigationView_ContentOverlay;
+                xamlMember.Getter = get_9_NavigationView_ContentOverlay;
+                xamlMember.Setter = set_9_NavigationView_ContentOverlay;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.DisplayMode":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_NavigationView_DisplayMode;
+                xamlMember.Getter = get_10_NavigationView_DisplayMode;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ExpandedModeThresholdWidth":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "ExpandedModeThresholdWidth", "Double");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "ExpandedModeThresholdWidth", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_12_NavigationView_ExpandedModeThresholdWidth;
-                xamlMember.Setter = set_12_NavigationView_ExpandedModeThresholdWidth;
+                xamlMember.Getter = get_11_NavigationView_ExpandedModeThresholdWidth;
+                xamlMember.Setter = set_11_NavigationView_ExpandedModeThresholdWidth;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItemsSource":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "FooterMenuItemsSource", "Object");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "FooterMenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_NavigationView_FooterMenuItemsSource;
-                xamlMember.Setter = set_13_NavigationView_FooterMenuItemsSource;
+                xamlMember.Getter = get_12_NavigationView_FooterMenuItemsSource;
+                xamlMember.Setter = set_12_NavigationView_FooterMenuItemsSource;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NavigationView.Header":
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_13_NavigationView_Header;
+                xamlMember.Setter = set_13_NavigationView_Header;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.HeaderTemplate":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_14_NavigationView_HeaderTemplate;
                 xamlMember.Setter = set_14_NavigationView_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackButtonVisible":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsBackButtonVisible", "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_15_NavigationView_IsBackButtonVisible;
                 xamlMember.Setter = set_15_NavigationView_IsBackButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsBackEnabled":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsBackEnabled", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsBackEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_16_NavigationView_IsBackEnabled;
                 xamlMember.Setter = set_16_NavigationView_IsBackEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneOpen":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsPaneOpen", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsPaneOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_17_NavigationView_IsPaneOpen;
                 xamlMember.Setter = set_17_NavigationView_IsPaneOpen;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneToggleButtonVisible":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsPaneToggleButtonVisible", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsPaneToggleButtonVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_18_NavigationView_IsPaneToggleButtonVisible;
                 xamlMember.Setter = set_18_NavigationView_IsPaneToggleButtonVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneVisible":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsPaneVisible", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsPaneVisible", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_19_NavigationView_IsPaneVisible;
                 xamlMember.Setter = set_19_NavigationView_IsPaneVisible;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsTitleBarAutoPaddingEnabled":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsTitleBarAutoPaddingEnabled", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsTitleBarAutoPaddingEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_20_NavigationView_IsTitleBarAutoPaddingEnabled;
                 xamlMember.Setter = set_20_NavigationView_IsTitleBarAutoPaddingEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyle":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyle", "Microsoft.UI.Xaml.Style");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_21_NavigationView_MenuItemContainerStyle;
                 xamlMember.Setter = set_21_NavigationView_MenuItemContainerStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyleSelector":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyleSelector", "Microsoft.UI.Xaml.Controls.StyleSelector");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "MenuItemContainerStyleSelector", "Microsoft.UI.Xaml.Controls.StyleSelector");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_22_NavigationView_MenuItemContainerStyleSelector;
                 xamlMember.Setter = set_22_NavigationView_MenuItemContainerStyleSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplate":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "MenuItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "MenuItemTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_23_NavigationView_MenuItemTemplate;
                 xamlMember.Setter = set_23_NavigationView_MenuItemTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplateSelector":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "MenuItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "MenuItemTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_24_NavigationView_MenuItemTemplateSelector;
                 xamlMember.Setter = set_24_NavigationView_MenuItemTemplateSelector;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.MenuItemsSource":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_25_NavigationView_MenuItemsSource;
                 xamlMember.Setter = set_25_NavigationView_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OpenPaneLength":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "OpenPaneLength", "Double");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "OpenPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_26_NavigationView_OpenPaneLength;
                 xamlMember.Setter = set_26_NavigationView_OpenPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.OverflowLabelMode":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "OverflowLabelMode", "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "OverflowLabelMode", "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_27_NavigationView_OverflowLabelMode;
                 xamlMember.Setter = set_27_NavigationView_OverflowLabelMode;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneCustomContent":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "PaneCustomContent", "Microsoft.UI.Xaml.UIElement");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "PaneCustomContent", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_28_NavigationView_PaneCustomContent;
                 xamlMember.Setter = set_28_NavigationView_PaneCustomContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneFooter":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "PaneFooter", "Microsoft.UI.Xaml.UIElement");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "PaneFooter", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_29_NavigationView_PaneFooter;
                 xamlMember.Setter = set_29_NavigationView_PaneFooter;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneHeader":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "PaneHeader", "Microsoft.UI.Xaml.UIElement");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "PaneHeader", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_30_NavigationView_PaneHeader;
                 xamlMember.Setter = set_30_NavigationView_PaneHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneTitle":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "PaneTitle", "String");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "PaneTitle", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_31_NavigationView_PaneTitle;
                 xamlMember.Setter = set_31_NavigationView_PaneTitle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.PaneToggleButtonStyle":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "PaneToggleButtonStyle", "Microsoft.UI.Xaml.Style");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "PaneToggleButtonStyle", "Microsoft.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_32_NavigationView_PaneToggleButtonStyle;
                 xamlMember.Setter = set_32_NavigationView_PaneToggleButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectedItem":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_33_NavigationView_SelectedItem;
                 xamlMember.Setter = set_33_NavigationView_SelectedItem;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SelectionFollowsFocus":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "SelectionFollowsFocus", "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "SelectionFollowsFocus", "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_34_NavigationView_SelectionFollowsFocus;
                 xamlMember.Setter = set_34_NavigationView_SelectionFollowsFocus;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.SettingsItem":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "SettingsItem", "Object");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "SettingsItem", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_35_NavigationView_SettingsItem;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ShoulderNavigationEnabled":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "ShoulderNavigationEnabled", "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "ShoulderNavigationEnabled", "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_36_NavigationView_ShoulderNavigationEnabled;
                 xamlMember.Setter = set_36_NavigationView_ShoulderNavigationEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.TemplateSettings":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_37_NavigationView_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.Icon":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "Icon", "Microsoft.UI.Xaml.Controls.IconElement");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "Icon", "Microsoft.UI.Xaml.Controls.IconElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_38_NavigationViewItem_Icon;
                 xamlMember.Setter = set_38_NavigationViewItem_Icon;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.CompactPaneLength":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_39_NavigationViewItem_CompactPaneLength;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.HasUnrealizedChildren":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_40_NavigationViewItem_HasUnrealizedChildren;
                 xamlMember.Setter = set_40_NavigationViewItem_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.InfoBadge":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "InfoBadge", "Microsoft.UI.Xaml.Controls.InfoBadge");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "InfoBadge", "Microsoft.UI.Xaml.Controls.InfoBadge");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_41_NavigationViewItem_InfoBadge;
                 xamlMember.Setter = set_41_NavigationViewItem_InfoBadge;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsChildSelected":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsChildSelected", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsChildSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_42_NavigationViewItem_IsChildSelected;
                 xamlMember.Setter = set_42_NavigationViewItem_IsChildSelected;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.IsExpanded":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_43_NavigationViewItem_IsExpanded;
                 xamlMember.Setter = set_43_NavigationViewItem_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItems":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "MenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_44_NavigationViewItem_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItemsSource":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "MenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_45_NavigationViewItem_MenuItemsSource;
                 xamlMember.Setter = set_45_NavigationViewItem_MenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItem.SelectsOnInvoked":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "SelectsOnInvoked", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItem");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "SelectsOnInvoked", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_46_NavigationViewItem_SelectsOnInvoked;
                 xamlMember.Setter = set_46_NavigationViewItem_SelectsOnInvoked;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationViewItemBase.IsSelected":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsSelected", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_47_NavigationViewItemBase_IsSelected;
                 xamlMember.Setter = set_47_NavigationViewItemBase_IsSelected;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
                 xamlMember.Getter = get_48_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "Content", "Object");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_49_TreeViewNode_Content;
                 xamlMember.Setter = set_49_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_50_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_51_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.Getter = get_52_TreeViewNode_HasUnrealizedChildren;
                 xamlMember.Setter = set_52_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_53_TreeViewNode_IsExpanded;
                 xamlMember.Setter = set_53_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
-                userType = (global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
+                userType = (global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember.Getter = get_54_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
@@ -1653,10 +1677,10 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal partial class XamlUserType : global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlSystemBaseType
+    internal partial class XamlUserType : global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType
         , global::Microsoft.UI.Xaml.Markup.IXamlType
     {
-        global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Microsoft.UI.Xaml.Markup.IXamlType _baseType;
         global::Microsoft.UI.Xaml.Markup.IXamlType _boxedType;
         bool _isArray;
@@ -1671,7 +1695,7 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, 
+        public XamlUserType(global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, 
             global::System.Type fullType, global::Microsoft.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
@@ -1888,7 +1912,7 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlMember : global::Microsoft.UI.Xaml.Markup.IXamlMember
     {
-        global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -1897,7 +1921,7 @@ namespace Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::Windows_Security_Clone.Windows_Security_Clone_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

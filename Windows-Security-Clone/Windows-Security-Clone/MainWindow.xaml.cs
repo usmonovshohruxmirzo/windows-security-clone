@@ -12,6 +12,7 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
+using WindowsSecurityClone;
 
 namespace Windows_Security_Clone
 {
@@ -20,6 +21,12 @@ namespace Windows_Security_Clone
         public MainWindow()
         {
             this.InitializeComponent();
+            contentFrame.Navigate(typeof(HomePage));
+        }
+
+        public void NavigateToPage(Type pageType)
+        {
+            contentFrame.Navigate(pageType);
         }
     }
 }

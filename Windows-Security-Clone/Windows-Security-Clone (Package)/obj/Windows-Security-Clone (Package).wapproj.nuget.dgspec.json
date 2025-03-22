@@ -33,8 +33,8 @@
           "uap10.0.17763": {
             "targetAlias": "net451",
             "projectReferences": {
-              "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone.csproj": {
-                "projectPath": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone.csproj"
+              "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\WindowsSecurityClone.csproj": {
+                "projectPath": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\WindowsSecurityClone.csproj"
               }
             }
           }
@@ -101,12 +101,12 @@
         }
       }
     },
-    "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone.csproj": {
+    "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\WindowsSecurityClone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone.csproj",
-        "projectName": "Windows-Security-Clone",
-        "projectPath": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone.csproj",
+        "projectUniqueName": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\WindowsSecurityClone.csproj",
+        "projectName": "WindowsSecurityClone",
+        "projectPath": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\WindowsSecurityClone.csproj",
         "packagesPath": "C:\\Users\\ACER_NITRO\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ACER_NITRO\\Desktop\\Windows-Security-Clone\\Windows-Security-Clone\\Windows-Security-Clone\\obj\\",
         "projectStyle": "PackageReference",
