@@ -1,3 +1,3 @@
 # windows-security-clone
 
-![image](https://github.com/user-attachments/assets/54c3cc62-0eae-4033-8259-e987b9653971)
+![image](https://github.com/user-attachments/assets/1807bcb8-35fc-4a7a-86bd-73d4ca546980)
