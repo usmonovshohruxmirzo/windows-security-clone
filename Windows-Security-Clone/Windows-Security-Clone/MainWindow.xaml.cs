@@ -13,6 +13,7 @@ using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
 using WindowsSecurityClone;
+using Windows.UI.ApplicationSettings;
 
 namespace Windows_Security_Clone
 {
@@ -27,6 +28,22 @@ namespace Windows_Security_Clone
         public void NavigateToPage(Type pageType)
         {
             contentFrame.Navigate(pageType);
+        }
+
+        private void NavView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
+        {
+            if (args.SelectedItem is NavigationViewItem selectedItem)
+            {
+                switch (selectedItem.Tag)
+                {
+                    case "HomePage":
+                        NavigateToPage(typeof(HomePage));
+                        break;
+                    case "VirusThreatProtection":
+                        NavigateToPage(typeof(VirusThreatProtectionPage));
+                        break;
+                }
+            }
         }
     }
 }

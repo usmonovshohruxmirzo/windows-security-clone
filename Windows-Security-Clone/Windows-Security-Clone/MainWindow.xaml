@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Title="Windows-Security-Clone">
 
-    <NavigationView PaneDisplayMode="Left" IsSettingsVisible="False">
+    <NavigationView PaneDisplayMode="Left" IsSettingsVisible="False" SelectionChanged="NavView_SelectionChanged">
         <NavigationView.MenuItems>
             <NavigationViewItem Content="Home" Tag="HomePage">
                 <NavigationViewItem.Icon>
@@ -58,15 +58,15 @@
                     <FontIcon Glyph="&#xE716;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
-            
-            <NavigationViewItem Content="Protection history" Tag="FamilyOptions">
+
+            <NavigationViewItem Content="Protection history" Tag="ProtectionHistory">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE81C;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
         </NavigationView.MenuItems>
         <NavigationView.FooterMenuItems>
-            <NavigationViewItem Content="Settings" Tag="SamplePage4" Icon="Setting" />
+            <NavigationViewItem Content="Settings" Tag="Settings" Icon="Setting" />
         </NavigationView.FooterMenuItems>
         <Frame x:Name="contentFrame" />
     </NavigationView>

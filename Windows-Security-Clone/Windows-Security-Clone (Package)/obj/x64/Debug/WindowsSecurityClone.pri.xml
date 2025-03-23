@@ -14,9 +14,49 @@
 				</Candidate>
 			</NamedResource>
 			<ResourceMapSubtree name="Views">
+				<NamedResource name="AccountProtectionPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/AccountProtectionPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\AccountProtectionPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="AppBrowserControl.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/AppBrowserControl.xbf">
+					<Candidate type="Path">
+						<Value>Views\AppBrowserControl.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DevicePerformanceHealthPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/DevicePerformanceHealthPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\DevicePerformanceHealthPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DeviceSecurityPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/DeviceSecurityPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\DeviceSecurityPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FamilyOptionsPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/FamilyOptionsPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\FamilyOptionsPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FirewallNetworkProtectionPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/FirewallNetworkProtectionPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\FirewallNetworkProtectionPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="HomePage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/HomePage.xbf">
 					<Candidate type="Path">
 						<Value>Views\HomePage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ProtectionHistory.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/ProtectionHistory.xbf">
+					<Candidate type="Path">
+						<Value>Views\ProtectionHistory.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="VirusThreatProtectionPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/VirusThreatProtectionPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\VirusThreatProtectionPage.xbf</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
