@@ -45,6 +45,9 @@
     <None Update="Views\ProtectionHistory.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+    <None Update="Views\SettingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
     <None Update="Views\VirusThreatProtectionPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
