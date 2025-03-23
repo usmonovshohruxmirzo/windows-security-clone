@@ -17,56 +17,56 @@
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="Virus &amp; threat protection" Tag="VirusThreatProtection">
+            <NavigationViewItem Content="Virus &amp; threat protection" Tag="VirusThreatProtectionPage">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xEA18;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="Account protection" Tag="AccountProtection">
+            <NavigationViewItem Content="Account protection" Tag="AccountProtectionPage">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE77B;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="Firewall &amp; network protection" Tag="FirewallNetwork">
+            <NavigationViewItem Content="Firewall &amp; network protection" Tag="FirewallNetworkProtectionPage">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE704;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="App &amp; browser control" Tag="AppBrowserControl">
+            <NavigationViewItem Content="App &amp; browser control" Tag="AppBrowserControlPage">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE737;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="Device security" Tag="DeviceSecurity">
+            <NavigationViewItem Content="Device security" Tag="DeviceSecurityPage">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE7F8;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="Device performance &amp; health" Tag="DevicePerformanceHealth">
+            <NavigationViewItem Content="Device performance &amp; health" Tag="DevicePerformanceHealthPage">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE95E;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="Family options" Tag="FamilyOptions">
+            <NavigationViewItem Content="Family options" Tag="FamilyOptionsPage">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE716;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
 
-            <NavigationViewItem Content="Protection history" Tag="ProtectionHistory">
+            <NavigationViewItem Content="Protection history" Tag="ProtectionHistoryPage">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE81C;" />
                 </NavigationViewItem.Icon>
             </NavigationViewItem>
         </NavigationView.MenuItems>
         <NavigationView.FooterMenuItems>
-            <NavigationViewItem Content="Settings" Tag="Settings" Icon="Setting" />
+            <NavigationViewItem Content="Settings" Tag="SettingsPage" Icon="Setting" />
         </NavigationView.FooterMenuItems>
         <Frame x:Name="contentFrame" />
     </NavigationView>

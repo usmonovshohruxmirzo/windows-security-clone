@@ -1,11 +1,12 @@
 App.xbf
 MainWindow.xbf
 Views\AccountProtectionPage.xbf
-Views\AppBrowserControl.xbf
+Views\AppBrowserControlPage.xbf
 Views\DevicePerformanceHealthPage.xbf
 Views\DeviceSecurityPage.xbf
 Views\FamilyOptionsPage.xbf
 Views\FirewallNetworkProtectionPage.xbf
 Views\HomePage.xbf
-Views\ProtectionHistory.xbf
+Views\ProtectionHistoryPage.xbf
+Views\SettingsPage.xbf
 Views\VirusThreatProtectionPage.xbf

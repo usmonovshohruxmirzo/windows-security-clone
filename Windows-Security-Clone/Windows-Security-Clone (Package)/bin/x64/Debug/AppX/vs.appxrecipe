@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone %28Package%29\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-23T00:49:11.865</Modified>
+      <Modified>2025-03-23T01:12:13.175</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -52,15 +52,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
-      <Modified>2025-03-23T00:47:17.796</Modified>
+      <Modified>2025-03-23T01:10:18.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\AccountProtectionPage.xbf">
       <PackagePath>Views\AccountProtectionPage.xbf</PackagePath>
       <Modified>2025-03-23T00:42:03.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\AppBrowserControl.xbf">
-      <PackagePath>Views\AppBrowserControl.xbf</PackagePath>
-      <Modified>2025-03-23T00:42:03.216</Modified>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\AppBrowserControlPage.xbf">
+      <PackagePath>Views\AppBrowserControlPage.xbf</PackagePath>
+      <Modified>2025-03-23T01:10:18.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\DevicePerformanceHealthPage.xbf">
       <PackagePath>Views\DevicePerformanceHealthPage.xbf</PackagePath>
@@ -82,9 +82,13 @@
       <PackagePath>Views\HomePage.xbf</PackagePath>
       <Modified>2025-03-22T17:53:15.835</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\ProtectionHistory.xbf">
-      <PackagePath>Views\ProtectionHistory.xbf</PackagePath>
-      <Modified>2025-03-23T00:42:03.218</Modified>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\ProtectionHistoryPage.xbf">
+      <PackagePath>Views\ProtectionHistoryPage.xbf</PackagePath>
+      <Modified>2025-03-23T01:10:18.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\SettingsPage.xbf">
+      <PackagePath>Views\SettingsPage.xbf</PackagePath>
+      <Modified>2025-03-23T01:10:18.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\VirusThreatProtectionPage.xbf">
       <PackagePath>Views\VirusThreatProtectionPage.xbf</PackagePath>
@@ -130,7 +134,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone %28Package%29\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-23T00:42:04.633</Modified>
+      <Modified>2025-03-23T01:10:19.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\.nuget\packages\microsoft.web.webview2\1.0.2903.40\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>WindowsSecurityClone\Microsoft.Web.WebView2.Core.dll</PackagePath>
@@ -274,7 +278,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\WindowsSecurityClone.deps.json">
       <PackagePath>WindowsSecurityClone\WindowsSecurityClone.deps.json</PackagePath>
-      <Modified>2025-03-23T00:42:03.824</Modified>
+      <Modified>2025-03-23T01:10:18.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\App.xbf">
       <PackagePath>WindowsSecurityClone\App.xbf</PackagePath>
@@ -282,15 +286,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>WindowsSecurityClone\MainWindow.xbf</PackagePath>
-      <Modified>2025-03-23T00:47:17.796</Modified>
+      <Modified>2025-03-23T01:10:18.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\AccountProtectionPage.xbf">
       <PackagePath>WindowsSecurityClone\Views\AccountProtectionPage.xbf</PackagePath>
       <Modified>2025-03-23T00:42:03.216</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\AppBrowserControl.xbf">
-      <PackagePath>WindowsSecurityClone\Views\AppBrowserControl.xbf</PackagePath>
-      <Modified>2025-03-23T00:42:03.216</Modified>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\AppBrowserControlPage.xbf">
+      <PackagePath>WindowsSecurityClone\Views\AppBrowserControlPage.xbf</PackagePath>
+      <Modified>2025-03-23T01:10:18.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\DevicePerformanceHealthPage.xbf">
       <PackagePath>WindowsSecurityClone\Views\DevicePerformanceHealthPage.xbf</PackagePath>
@@ -312,9 +316,13 @@
       <PackagePath>WindowsSecurityClone\Views\HomePage.xbf</PackagePath>
       <Modified>2025-03-22T17:53:15.835</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\ProtectionHistory.xbf">
-      <PackagePath>WindowsSecurityClone\Views\ProtectionHistory.xbf</PackagePath>
-      <Modified>2025-03-23T00:42:03.218</Modified>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\ProtectionHistoryPage.xbf">
+      <PackagePath>WindowsSecurityClone\Views\ProtectionHistoryPage.xbf</PackagePath>
+      <Modified>2025-03-23T01:10:18.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\SettingsPage.xbf">
+      <PackagePath>WindowsSecurityClone\Views\SettingsPage.xbf</PackagePath>
+      <Modified>2025-03-23T01:10:18.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\VirusThreatProtectionPage.xbf">
       <PackagePath>WindowsSecurityClone\Views\VirusThreatProtectionPage.xbf</PackagePath>
@@ -322,7 +330,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>WindowsSecurityClone\WindowsSecurityClone.exe</PackagePath>
-      <Modified>2025-03-23T00:49:11.396</Modified>
+      <Modified>2025-03-23T01:12:12.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\WindowsSecurityClone.runtimeconfig.json">
       <PackagePath>WindowsSecurityClone\WindowsSecurityClone.runtimeconfig.json</PackagePath>
@@ -330,7 +338,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\WindowsSecurityClone.dll">
       <PackagePath>WindowsSecurityClone\WindowsSecurityClone.dll</PackagePath>
-      <Modified>2025-03-23T00:49:11.392</Modified>
+      <Modified>2025-03-23T01:12:12.664</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

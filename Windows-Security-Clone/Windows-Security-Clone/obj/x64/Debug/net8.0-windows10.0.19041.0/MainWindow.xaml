@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Windows_Security_Clone.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Windows_Security_Clone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Windows-Security-Clone">
+
+    <NavigationView x:ConnectionId='2' PaneDisplayMode="Left" IsSettingsVisible="False"                                            >
+        <NavigationView.MenuItems>
+            <NavigationViewItem Content="Home" Tag="HomePage">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE80F;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Virus &amp; threat protection" Tag="VirusThreatProtectionPage">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xEA18;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Account protection" Tag="AccountProtectionPage">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE77B;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Firewall &amp; network protection" Tag="FirewallNetworkProtectionPage">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE704;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="App &amp; browser control" Tag="AppBrowserControlPage">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE737;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Device security" Tag="DeviceSecurityPage">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE7F8;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Device performance &amp; health" Tag="DevicePerformanceHealthPage">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE95E;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Family options" Tag="FamilyOptionsPage">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE716;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+
+            <NavigationViewItem Content="Protection history" Tag="ProtectionHistoryPage">
+                <NavigationViewItem.Icon>
+                    <FontIcon Glyph="&#xE81C;" />
+                </NavigationViewItem.Icon>
+            </NavigationViewItem>
+        </NavigationView.MenuItems>
+        <NavigationView.FooterMenuItems>
+            <NavigationViewItem Content="Settings" Tag="Settings" Icon="Setting" />
+        </NavigationView.FooterMenuItems>
+        <Frame x:ConnectionId='3' x:Name="contentFrame" />
+    </NavigationView>
+</Window>
+

@@ -39,8 +39,32 @@ namespace Windows_Security_Clone
                     case "HomePage":
                         NavigateToPage(typeof(HomePage));
                         break;
-                    case "VirusThreatProtection":
+                    case "VirusThreatProtectionPage":
                         NavigateToPage(typeof(VirusThreatProtectionPage));
+                        break;
+                    case "AccountProtectionPage":
+                        NavigateToPage(typeof(AccountProtectionPage));
+                        break;
+                    case "FirewallNetworkProtectionPage":
+                        NavigateToPage(typeof(FirewallNetworkProtectionPage));
+                        break;
+                    case "AppBrowserControlPage":
+                        NavigateToPage(typeof(AppBrowserControlPage));
+                        break;
+                    case "DeviceSecurityPage":
+                        NavigateToPage(typeof(DeviceSecurityPage));
+                        break;
+                    case "DevicePerformanceHealthPage":
+                        NavigateToPage(typeof(DevicePerformanceHealthPage));
+                        break;
+                    case "FamilyOptionsPage":
+                        NavigateToPage(typeof(FamilyOptionsPage));
+                        break;
+                    case "ProtectionHistoryPage":
+                        NavigateToPage(typeof(ProtectionHistoryPage));
+                        break;
+                    case "SettingsPage": 
+                        NavigateToPage(typeof(SettingsPage)); 
                         break;
                 }
             }

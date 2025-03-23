@@ -24,7 +24,7 @@
     <None Update="Views\AccountProtectionPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
-    <None Update="Views\AppBrowserControl.xaml">
+    <None Update="Views\AppBrowserControlPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
     <None Update="Views\DevicePerformanceHealthPage.xaml">
@@ -42,7 +42,7 @@
     <None Update="Views\HomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
-    <None Update="Views\ProtectionHistory.xaml">
+    <None Update="Views\ProtectionHistoryPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
     <None Update="Views\SettingsPage.xaml">

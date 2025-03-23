@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace WindowsSecurityClone
 {
-    public sealed partial class AppBrowserControl : Page
+    public sealed partial class ProtectionHistoryPage : Page
     {
-        public AppBrowserControl()
+        public ProtectionHistoryPage()
         {
             this.InitializeComponent();
         }

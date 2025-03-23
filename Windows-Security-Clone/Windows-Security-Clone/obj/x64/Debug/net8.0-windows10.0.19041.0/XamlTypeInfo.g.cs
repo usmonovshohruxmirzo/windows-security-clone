@@ -226,7 +226,7 @@ namespace Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[46];
+            _typeNameTable = new string[47];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -262,19 +262,20 @@ namespace Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo
             _typeNameTable[32] = "WindowsSecurityClone.AccountProtectionPage";
             _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[35] = "WindowsSecurityClone.AppBrowserControl";
+            _typeNameTable[35] = "WindowsSecurityClone.AppBrowserControlPage";
             _typeNameTable[36] = "WindowsSecurityClone.DevicePerformanceHealthPage";
             _typeNameTable[37] = "WindowsSecurityClone.DeviceSecurityPage";
             _typeNameTable[38] = "WindowsSecurityClone.FamilyOptionsPage";
             _typeNameTable[39] = "WindowsSecurityClone.FirewallNetworkProtectionPage";
             _typeNameTable[40] = "WindowsSecurityClone.HomePage";
-            _typeNameTable[41] = "WindowsSecurityClone.ProtectionHistory";
-            _typeNameTable[42] = "WindowsSecurityClone.VirusThreatProtectionPage";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[44] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[45] = "Int32";
+            _typeNameTable[41] = "WindowsSecurityClone.ProtectionHistoryPage";
+            _typeNameTable[42] = "WindowsSecurityClone.SettingsPage";
+            _typeNameTable[43] = "WindowsSecurityClone.VirusThreatProtectionPage";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[45] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[46] = "Int32";
 
-            _typeTable = new global::System.Type[46];
+            _typeTable = new global::System.Type[47];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -310,17 +311,18 @@ namespace Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo
             _typeTable[32] = typeof(global::WindowsSecurityClone.AccountProtectionPage);
             _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[35] = typeof(global::WindowsSecurityClone.AppBrowserControl);
+            _typeTable[35] = typeof(global::WindowsSecurityClone.AppBrowserControlPage);
             _typeTable[36] = typeof(global::WindowsSecurityClone.DevicePerformanceHealthPage);
             _typeTable[37] = typeof(global::WindowsSecurityClone.DeviceSecurityPage);
             _typeTable[38] = typeof(global::WindowsSecurityClone.FamilyOptionsPage);
             _typeTable[39] = typeof(global::WindowsSecurityClone.FirewallNetworkProtectionPage);
             _typeTable[40] = typeof(global::WindowsSecurityClone.HomePage);
-            _typeTable[41] = typeof(global::WindowsSecurityClone.ProtectionHistory);
-            _typeTable[42] = typeof(global::WindowsSecurityClone.VirusThreatProtectionPage);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[44] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[45] = typeof(global::System.Int32);
+            _typeTable[41] = typeof(global::WindowsSecurityClone.ProtectionHistoryPage);
+            _typeTable[42] = typeof(global::WindowsSecurityClone.SettingsPage);
+            _typeTable[43] = typeof(global::WindowsSecurityClone.VirusThreatProtectionPage);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[45] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[46] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -362,15 +364,16 @@ namespace Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo
         private object Activate_28_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
         private object Activate_30_MainWindow() { return new global::Windows_Security_Clone.MainWindow(); }
         private object Activate_32_AccountProtectionPage() { return new global::WindowsSecurityClone.AccountProtectionPage(); }
-        private object Activate_35_AppBrowserControl() { return new global::WindowsSecurityClone.AppBrowserControl(); }
+        private object Activate_35_AppBrowserControlPage() { return new global::WindowsSecurityClone.AppBrowserControlPage(); }
         private object Activate_36_DevicePerformanceHealthPage() { return new global::WindowsSecurityClone.DevicePerformanceHealthPage(); }
         private object Activate_37_DeviceSecurityPage() { return new global::WindowsSecurityClone.DeviceSecurityPage(); }
         private object Activate_38_FamilyOptionsPage() { return new global::WindowsSecurityClone.FamilyOptionsPage(); }
         private object Activate_39_FirewallNetworkProtectionPage() { return new global::WindowsSecurityClone.FirewallNetworkProtectionPage(); }
         private object Activate_40_HomePage() { return new global::WindowsSecurityClone.HomePage(); }
-        private object Activate_41_ProtectionHistory() { return new global::WindowsSecurityClone.ProtectionHistory(); }
-        private object Activate_42_VirusThreatProtectionPage() { return new global::WindowsSecurityClone.VirusThreatProtectionPage(); }
-        private object Activate_43_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_41_ProtectionHistoryPage() { return new global::WindowsSecurityClone.ProtectionHistoryPage(); }
+        private object Activate_42_SettingsPage() { return new global::WindowsSecurityClone.SettingsPage(); }
+        private object Activate_43_VirusThreatProtectionPage() { return new global::WindowsSecurityClone.VirusThreatProtectionPage(); }
+        private object Activate_44_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
         private void StaticInitializer_6_NavigationViewPaneDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode).TypeHandle);
@@ -388,16 +391,17 @@ namespace Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo
         private void StaticInitializer_28_InfoBadge() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge).TypeHandle);
         private void StaticInitializer_30_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Windows_Security_Clone.MainWindow).TypeHandle);
         private void StaticInitializer_32_AccountProtectionPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.AccountProtectionPage).TypeHandle);
-        private void StaticInitializer_35_AppBrowserControl() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.AppBrowserControl).TypeHandle);
+        private void StaticInitializer_35_AppBrowserControlPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.AppBrowserControlPage).TypeHandle);
         private void StaticInitializer_36_DevicePerformanceHealthPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.DevicePerformanceHealthPage).TypeHandle);
         private void StaticInitializer_37_DeviceSecurityPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.DeviceSecurityPage).TypeHandle);
         private void StaticInitializer_38_FamilyOptionsPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.FamilyOptionsPage).TypeHandle);
         private void StaticInitializer_39_FirewallNetworkProtectionPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.FirewallNetworkProtectionPage).TypeHandle);
         private void StaticInitializer_40_HomePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.HomePage).TypeHandle);
-        private void StaticInitializer_41_ProtectionHistory() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.ProtectionHistory).TypeHandle);
-        private void StaticInitializer_42_VirusThreatProtectionPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.VirusThreatProtectionPage).TypeHandle);
-        private void StaticInitializer_43_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_44_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void StaticInitializer_41_ProtectionHistoryPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.ProtectionHistoryPage).TypeHandle);
+        private void StaticInitializer_42_SettingsPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.SettingsPage).TypeHandle);
+        private void StaticInitializer_43_VirusThreatProtectionPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::WindowsSecurityClone.VirusThreatProtectionPage).TypeHandle);
+        private void StaticInitializer_44_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_45_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -411,7 +415,7 @@ namespace Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_44_IList(object instance, object item)
+        private void VectorAdd_45_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -680,10 +684,10 @@ namespace Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo
                 xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 35:   //  WindowsSecurityClone.AppBrowserControl
+            case 35:   //  WindowsSecurityClone.AppBrowserControlPage
                 userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_35_AppBrowserControl;
-                userType.StaticInitializer = StaticInitializer_35_AppBrowserControl;
+                userType.Activator = Activate_35_AppBrowserControlPage;
+                userType.StaticInitializer = StaticInitializer_35_AppBrowserControlPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -728,26 +732,34 @@ namespace Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 41:   //  WindowsSecurityClone.ProtectionHistory
+            case 41:   //  WindowsSecurityClone.ProtectionHistoryPage
                 userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_41_ProtectionHistory;
-                userType.StaticInitializer = StaticInitializer_41_ProtectionHistory;
+                userType.Activator = Activate_41_ProtectionHistoryPage;
+                userType.StaticInitializer = StaticInitializer_41_ProtectionHistoryPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 42:   //  WindowsSecurityClone.VirusThreatProtectionPage
+            case 42:   //  WindowsSecurityClone.SettingsPage
                 userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_42_VirusThreatProtectionPage;
-                userType.StaticInitializer = StaticInitializer_42_VirusThreatProtectionPage;
+                userType.Activator = Activate_42_SettingsPage;
+                userType.StaticInitializer = StaticInitializer_42_SettingsPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 43:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 43:   //  WindowsSecurityClone.VirusThreatProtectionPage
+                userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_43_VirusThreatProtectionPage;
+                userType.StaticInitializer = StaticInitializer_43_VirusThreatProtectionPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 44:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_43_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_43_TreeViewNode;
+                userType.Activator = Activate_44_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_44_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -759,15 +771,15 @@ namespace Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 44:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 45:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_44_IList;
-                userType.CollectionAdd = VectorAdd_44_IList;
+                userType.StaticInitializer = StaticInitializer_45_IList;
+                userType.CollectionAdd = VectorAdd_45_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 45:   //  Int32
+            case 46:   //  Int32
                 xamlType = new global::Windows_Security_Clone.WindowsSecurityClone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }

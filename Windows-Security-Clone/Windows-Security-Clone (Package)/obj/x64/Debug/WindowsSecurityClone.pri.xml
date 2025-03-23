@@ -19,9 +19,9 @@
 						<Value>Views\AccountProtectionPage.xbf</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="AppBrowserControl.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/AppBrowserControl.xbf">
+				<NamedResource name="AppBrowserControlPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/AppBrowserControlPage.xbf">
 					<Candidate type="Path">
-						<Value>Views\AppBrowserControl.xbf</Value>
+						<Value>Views\AppBrowserControlPage.xbf</Value>
 					</Candidate>
 				</NamedResource>
 				<NamedResource name="DevicePerformanceHealthPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/DevicePerformanceHealthPage.xbf">
@@ -49,9 +49,14 @@
 						<Value>Views\HomePage.xbf</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="ProtectionHistory.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/ProtectionHistory.xbf">
+				<NamedResource name="ProtectionHistoryPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/ProtectionHistoryPage.xbf">
 					<Candidate type="Path">
-						<Value>Views\ProtectionHistory.xbf</Value>
+						<Value>Views\ProtectionHistoryPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SettingsPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/SettingsPage.xbf">
+					<Candidate type="Path">
+						<Value>Views\SettingsPage.xbf</Value>
 					</Candidate>
 				</NamedResource>
 				<NamedResource name="VirusThreatProtectionPage.xbf" uri="ms-resource://WindowsSecurityClone/Files/Views/VirusThreatProtectionPage.xbf">
