@@ -12,10 +12,10 @@
 		</Grid.RowDefinitions>
 		
 		<StackPanel Grid.Row="0">
-			<TextBlock Text="Security at a glance"
-                       Foreground="White"
-                       FontSize="24"
-                       Margin="0,0,0,10" />
+			<Grid Margin="0,0,0,10">
+				<FontIcon Glyph="&#xEA18;" HorizontalAlignment="Left" FontSize="25"/>
+				<TextBlock Text="Virus &amp; threat protection" Foreground="White" FontSize="24" Margin="40,0,0,0" />
+			</Grid>
 			<TextBlock Text="See what's happening with the security and health of your device and take any actions needed."
                        Foreground="LightGray"
                        FontSize="12"
