@@ -7,11 +7,11 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Title="Windows-Security-Clone">
+    Title="Windows Security Clone">
 
-    <NavigationView x:ConnectionId='2' PaneDisplayMode="Left" IsSettingsVisible="False"                                            >
+    <NavigationView x:ConnectionId='2' PaneDisplayMode="Left" IsSettingsVisible="False"                                             x:Name="Nav">
         <NavigationView.MenuItems>
-            <NavigationViewItem Content="Home" Tag="HomePage">
+            <NavigationViewItem x:ConnectionId='3' Content="Home" Tag="HomePage" x:Name="NavHomePage">
                 <NavigationViewItem.Icon>
                     <FontIcon Glyph="&#xE80F;" />
                 </NavigationViewItem.Icon>
@@ -66,9 +66,9 @@
             </NavigationViewItem>
         </NavigationView.MenuItems>
         <NavigationView.FooterMenuItems>
-            <NavigationViewItem Content="Settings" Tag="Settings" Icon="Setting" />
+            <NavigationViewItem Content="Settings" Tag="SettingsPage" Icon="Setting" />
         </NavigationView.FooterMenuItems>
-        <Frame x:ConnectionId='3' x:Name="contentFrame" />
+        <Frame x:ConnectionId='4' x:Name="contentFrame" />
     </NavigationView>
 </Window>
 

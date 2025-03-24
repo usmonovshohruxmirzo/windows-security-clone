@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone %28Package%29\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-23T01:12:13.175</Modified>
+      <Modified>2025-03-24T11:42:07.196</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -52,7 +52,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>MainWindow.xbf</PackagePath>
-      <Modified>2025-03-23T01:10:18.163</Modified>
+      <Modified>2025-03-24T11:39:37.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\Views\AccountProtectionPage.xbf">
       <PackagePath>Views\AccountProtectionPage.xbf</PackagePath>
@@ -286,7 +286,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\MainWindow.xbf">
       <PackagePath>WindowsSecurityClone\MainWindow.xbf</PackagePath>
-      <Modified>2025-03-23T01:10:18.163</Modified>
+      <Modified>2025-03-24T11:39:37.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\Views\AccountProtectionPage.xbf">
       <PackagePath>WindowsSecurityClone\Views\AccountProtectionPage.xbf</PackagePath>
@@ -330,7 +330,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\obj\x64\Debug\net8.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>WindowsSecurityClone\WindowsSecurityClone.exe</PackagePath>
-      <Modified>2025-03-23T01:12:12.668</Modified>
+      <Modified>2025-03-24T11:42:06.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\WindowsSecurityClone.runtimeconfig.json">
       <PackagePath>WindowsSecurityClone\WindowsSecurityClone.runtimeconfig.json</PackagePath>
@@ -338,7 +338,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER_NITRO\Desktop\Windows-Security-Clone\Windows-Security-Clone\Windows-Security-Clone\bin\x64\Debug\net8.0-windows10.0.19041.0\WindowsSecurityClone.dll">
       <PackagePath>WindowsSecurityClone\WindowsSecurityClone.dll</PackagePath>
-      <Modified>2025-03-23T01:12:12.664</Modified>
+      <Modified>2025-03-24T11:42:06.729</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -14,6 +14,8 @@ using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
 using WindowsSecurityClone;
 using Windows.UI.ApplicationSettings;
+using Microsoft.UI.Windowing;
+using Microsoft.UI;
 
 namespace Windows_Security_Clone
 {
@@ -22,7 +24,25 @@ namespace Windows_Security_Clone
         public MainWindow()
         {
             this.InitializeComponent();
+            ConfigureWindow();
+            Nav.SelectedItem = NavHomePage;
             contentFrame.Navigate(typeof(HomePage));
+        }
+
+        private void ConfigureWindow()
+        {
+            IntPtr hwnd = WinRT.Interop.WindowNative.GetWindowHandle(this);
+            var windowId = Win32Interop.GetWindowIdFromWindow(hwnd);
+            var appWindow = AppWindow.GetFromWindowId(windowId);
+
+            this.ExtendsContentIntoTitleBar = true;
+            SetTitleBar(null);
+
+            if (appWindow?.Presenter is OverlappedPresenter presenter)
+            {
+                presenter.SetBorderAndTitleBar(true, true);
+                presenter.IsResizable = true;
+            }
         }
 
         public void NavigateToPage(Type pageType)
