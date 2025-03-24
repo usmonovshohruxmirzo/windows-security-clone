@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WindowsSecurityClone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a80b847efa86ea30da8de9805d2f77a9ec72f5d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51d0ecd659bca43e4a14a8867259154a4164cfd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("WindowsSecurityClone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WindowsSecurityClone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
